@@ -1,12 +1,12 @@
 # Lagnoda - A ZSH Theme
 
-![lagnoda zsh theme](./lagnoda-zsh-theme-1.png)
+![lagnoda zsh theme](./assets/lagnoda-zsh-theme-1.png)
 
 **lagnoda: A ZSH Theme Inspired by agnoster and lambda**
 
 This ZSH theme, lagnoda, draws inspiration from the popular agnoster and Lambda themes, offering a clean and informative prompt that adapts to your current context.
 
-![zsh theme](./lagnoda-zsh-theme-2.png)
+![zsh theme](./assets/lagnoda-zsh-theme-2.png)
 
 ## Key Features:
 - Context-aware: Only displays relevant information like git status, virtual environment name, and background jobs when needed.
@@ -27,12 +27,12 @@ Add the following line to your ~/.zshrc file:
   ```
 *(Optional) Set the `SOLARIZED_THEME` variable in your `~/.zshrc` to `"light"` if you're using the light variant of the Solarized color scheme.*
 
-![oh-my-zsh theme](./lagnoda-zsh-theme-3.png)
+![oh-my-zsh theme](./assets/lagnoda-zsh-theme-3.png)
 
 ## Further Customization:
 The theme provides flexibility for adjustments. Explore the code within the prompt_segment function to modify the foreground color for different segments.
 
-![lagnoda](./lagnoda-zsh-theme-4.png)
+![lagnoda](./assets/lagnoda-zsh-theme-4.png)
 
 ## Compatibility:
 This theme requires Oh My Zsh to be installed.
