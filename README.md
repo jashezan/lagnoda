@@ -25,7 +25,12 @@ Add the following line to your ~/.zshrc file:
   ```bash
   ZSH_THEME="lagnoda"
   ```
-*(Optional) Set the `SOLARIZED_THEME` variable in your `~/.zshrc` to `"light"` if you're using the light variant of the Solarized color scheme.*
+> *(Optional) Set the `SOLARIZED_THEME` variable in your `~/.zshrc` to `"light"` if you're using the light variant of the Solarized color scheme.*
+
+Then flush the command prompt
+```bash
+exec zsh
+```
 
 ![oh-my-zsh theme](./assets/lagnoda-zsh-theme-3.png)
 
