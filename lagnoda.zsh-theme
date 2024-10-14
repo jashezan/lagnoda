@@ -60,7 +60,7 @@ prompt_end() {
 # Context: user@hostname (who am I and where am I)
 prompt_context() {
   if [[ "$USERNAME" != "$DEFAULT_USER" || -n "$SSH_CLIENT" ]]; then
-    prompt_segment white "%F{3}%n%f%F{0}@%f%F{3}%m%f"
+    prompt_segment white "%F{3}%n%f%F{CURRENT_FG} @ %f%F{3}%m%f"
   fi
 }
 
@@ -229,8 +229,7 @@ prompt_aws() {
 
 prompt_newline(){
   local PROMPT_DEFAULT_END=❯
-  echo "
-%F{2}${PROMPT_DEFAULT_END}%f"
+  echo -e "\n%F{2}${PROMPT_DEFAULT_END}%f"
 }
 
 ## Main prompt
@@ -251,3 +250,4 @@ build_prompt() {
 }
 
 PROMPT='%{%f%b%k%}$(build_prompt) '
+
